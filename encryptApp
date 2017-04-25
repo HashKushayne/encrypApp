@@ -1,0 +1,18 @@
+#!/bin/sh
+ 
+echo
+echo "Welcome!"
+echo
+
+echo "Do you want to do encrypt[y/n]?"
+read answer
+if [ "$answer"=="y" ] then;
+	./crypto.sh
+fi
+
+echo "Do you want to do decrypt[y/n]?"
+read answer2
+if [ "$answer2"=="y" ] then;
+	./crypto2.sh
+fi
+
