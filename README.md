@@ -7,7 +7,9 @@ Therefore, It should be run in a bash shell that has OpenSSL.
 
   Step 02: Go to the place where the file that needs to be encrypted or decrypted resides in in the terminal using cd command.
   
-  Step 03: This App encrypt using Asymetric encryption so make private key using following command:
+  Step 03: This App encrypt using Asymetric encryption so make 
+    
+    private key using following command:
     openssl genrsa -out private.pem 2048
     
     and public key by this coomand:
