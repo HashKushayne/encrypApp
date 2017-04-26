@@ -11,6 +11,7 @@ echo "What is the file you want encrypted? "
 read efile
 
 #This is where the encryption happens
+#Encryption is done by public key , hence anyone can encrypt it.
 	openssl rsautl -encrypt -pubin -inkey public.pem -keyform pem -in $efile -out $efile.enc
 	rm $efile
 	mv $efile.enc $efile
