@@ -17,6 +17,6 @@ Therefore, It should be run in a bash shell that has OpenSSL.
 
   Step 04: run command ./encryptApp.sh and then follow the instructions
 
-PS- when giving the file name give it with the extension.
+PS- when giving the file name give it with the extension and also make sure that the execution permissions are given to these files.
 
 How encrytion works and how this app works will be explained in my blog http://www.securityessentials.net/2017/04/make-simple-encryptdecrypt-app.html
