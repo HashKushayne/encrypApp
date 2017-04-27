@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #This is the encryption/decryption app
 
 
@@ -9,5 +9,5 @@ echo
 #ask what you want encrytion or decryption and takes to corresponding task according to our reply "e" or "d"
 echo "What do you want to do [(e)ncrypt/(d)ecrypt]?"
 read answer
-./bin/encryptApp/$answer.sh
+./$answer.sh
 
