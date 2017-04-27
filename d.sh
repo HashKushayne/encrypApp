@@ -15,5 +15,7 @@ read efile
 	openssl rsautl -decrypt -inkey private.pem -keyform pem -in $efile -out $efile.dec
 	rm $efile
 	mv $efile.dec $efile
-
+echo
+echo "Done!!!"
+echo
 
